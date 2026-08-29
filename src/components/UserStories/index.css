@@ -1,0 +1,18 @@
+﻿.stories-container {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding: 18px 20px;
+  border: 1px solid #dbdbdb;
+  background: #ffffff;
+  border-radius: 24px;
+}
+
+.stories-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.stories-container::-webkit-scrollbar-thumb {
+  background: #d2d2d2;
+  border-radius: 999px;
+}

@@ -1,0 +1,10 @@
+﻿.comments-container {
+  margin-top: 14px;
+  display: grid;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.comment-user {
+  font-weight: 700;
+}

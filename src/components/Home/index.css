@@ -1,0 +1,176 @@
+﻿.home-wrapper {
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr;
+  gap: 24px;
+  padding: 24px 0 0;
+}
+
+.post-form-card,
+.sidebar-profile-card,
+.suggestions-card {
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.post-form-card h2 {
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.post-form {
+  display: grid;
+  gap: 14px;
+}
+
+.post-form input {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid #dbdbdb;
+  background: #fafafa;
+}
+
+.publish-btn {
+  width: fit-content;
+  padding: 12px 18px;
+  border-radius: 14px;
+  background: #0095f6;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.publish-error {
+  color: #d93025;
+  font-size: 13px;
+}
+
+.feed-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sidebar-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sidebar-profile-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sidebar-avatar {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sidebar-name {
+  font-weight: 700;
+}
+
+.sidebar-caption {
+  color: #8e8e8e;
+  font-size: 14px;
+}
+
+.sidebar-view {
+  margin-left: auto;
+  color: #0095f6;
+  font-weight: 700;
+}
+
+.suggestions-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  color: #262626;
+  font-weight: 700;
+}
+
+.see-all-btn {
+  color: #8e8e8e;
+  background: transparent;
+  cursor: pointer;
+}
+
+.suggestion-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.suggestion-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.suggestion-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.suggestion-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.suggestion-name {
+  font-weight: 700;
+}
+
+.suggestion-reason {
+  color: #8e8e8e;
+  font-size: 13px;
+}
+
+.follow-btn,
+.following-btn {
+  margin-left: auto;
+  padding: 8px 14px;
+  border-radius: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.follow-btn {
+  background: #0095f6;
+  color: white;
+}
+
+.following-btn {
+  background: #f4f4f4;
+  color: #262626;
+}
+
+@media (max-width: 900px) {
+  .home-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar-column {
+    order: -1;
+  }
+}
+
+@media (max-width: 620px) {
+  .sidebar-profile-card,
+  .suggestions-card,
+  .post-form-card {
+    padding: 20px;
+  }
+}

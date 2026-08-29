@@ -1,0 +1,45 @@
+﻿.story-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.story-ring {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  padding: 3px;
+  background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af, #515bd4);
+  display: grid;
+  place-items: center;
+}
+
+.story-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.story-name {
+  font-size: 13px;
+  color: #262626;
+  text-transform: capitalize;
+}
+
+.story-follow-button {
+  padding: 8px 14px;
+  border-radius: 18px;
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  background: #0095f6;
+  color: #ffffff;
+}
+
+.story-follow-button.following {
+  background: #f4f4f4;
+  color: #262626;
+}
