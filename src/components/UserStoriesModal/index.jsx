@@ -47,4 +47,4 @@ const ShareModal = ({isOpen, onClose, shareLink}) => {
   )
 }
 
-export default ShareModal
+export default UserStoriesModal
